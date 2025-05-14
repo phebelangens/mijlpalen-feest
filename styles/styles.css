@@ -1,0 +1,49 @@
+* {
+    background-color:beige;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    font-family: Garamond , sans-serif;
+    box-sizing: border-box;
+}
+
+.main_content {
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    font-style: italic ;
+    color: burlywood;
+}
+
+h3 {
+    font-size: 30px;
+    font-style: bold;
+}
+
+a {
+    color: grey;
+}
+
+a:hover {
+    color: black;
+}
+
+button {
+    width: 100px;
+}
+
+button:hover {
+    background-color: burlywood;
+    color: white;
+  }
