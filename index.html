@@ -3,32 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to CSS -->
     <link rel="stylesheet" href="styles\styles.css">
+    <!-- Icon for internet bar -->
     <link rel="icon" href="img/icon_firework.png" type="image/png">
+    <!-- Nice fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Pacifico&display=swap" rel="stylesheet">
     <title>Mijlpalen</title>
 </head>
 <body>
 
-<div class="main_content"> 
+<div class ="flex-container">
+    <!-- left side of screen -->
+    <div class="left_side"></div>
 
-    <h1> Mijlpalen feest </h1>
-
-    <h2> Editie 1 </h2>
-
-    <h3> Belangrijke info </h3>
-
-    <p> 
-        <ul>
-            <li> 23 augustus 2025 </li>
-            <li> 17u - 2u </li>
-            <li> Amsterdam, , <a href="https://maps.app.goo.gl/59eh44cjXDas3ETF8" target="_blank" rel="noopener noreferrer"> Okeanos, De BosBaan</a> </li>
-        </ul>
-    </p>
-
-    <button onclick="window.location.href='form';">Klik Mij</button>
+    <!-- Main content -->
+    <div class="main_content"> 
+        <h1> Mijlpalen feest </h1>
+        <h2> Editie 1 </h2>
+        <h3> Belangrijke info </h3>
+        <div> 
+            <ul>
+                <li> 23 augustus 2025 </li>
+                <li> 17u - 2u </li>
+                <li> Amsterdam, , <a href="https://maps.app.goo.gl/59eh44cjXDas3ETF8" target="_blank" rel="noopener noreferrer"> Okeanos, De BosBaan</a> </li>
+            </ul>
+        </div>
+        <div> <button onclick="window.location.href='form.html';">Klik Mij</button> </div>
+    </div>
+    
+    <!-- Right side of screen -->
+    <div class="right_side"></div>
 
 </div>
-    
 
 
 </body>
